@@ -3,7 +3,7 @@ function main()
   // exercise1(1,10);
   // exercise2();
   // exercise3(2);
-
+  exercise4();
   // exercise5();
 
 
@@ -58,16 +58,22 @@ function exercise3(number){
 
 function exercise4()
 {
-let numberofnumbers = Math.floor(500/23);
-let startingpoint = 0;
+const numbers = [];
+let nummofnums = Math.floor(500/23);
+let start = 0;
 let sum = 0;
-for (let i = 0; i < numberofnumbers; i++) {
-  
-  startingpoint + 23;
-  sum += 23;
+for( let i = 0; i < nummofnums; i++)
+{
+let multof23 = start += 23;
+numbers.push(multof23);
 }
-console
+console.log(`All multiples of 23 under 500 are ${numbers}.`);
+for (let index = 0; index < numbers.length; index++) {
+  sum += numbers[index];
 }
+console.log(`And the sum of those numbers is ${sum}.`)
+}
+
 
 function exercise5()
 {
